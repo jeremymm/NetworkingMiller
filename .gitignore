@@ -1,0 +1,12 @@
+*.obj
+*.pdb
+*.exe
+*.user
+*.tlog
+*.log
+*.sbr
+*.ilk
+*.idb
+*.bsc
+.vs
+Docs

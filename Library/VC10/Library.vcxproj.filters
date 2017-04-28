@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\TCP">
+      <UniqueIdentifier>{dc21a95c-9e0a-4318-b822-75c0dc982174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DNS">
+      <UniqueIdentifier>{30a4834c-813d-45d7-b06c-c1be0a398b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UDP">
+      <UniqueIdentifier>{42264bac-4eca-4655-8f67-fd18c0396ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UDP\Servers">
+      <UniqueIdentifier>{34add4ae-36f8-4c47-96df-c32211486690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UDP\Clients">
+      <UniqueIdentifier>{dd12329c-d3b2-4651-aff5-65d57b7d12f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HTTP">
+      <UniqueIdentifier>{fa82ec22-f155-41bb-9022-745f4a2e04d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Packets">
+      <UniqueIdentifier>{d7196d42-43eb-4121-88ad-4b3db0e12e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Packets\Containers">
+      <UniqueIdentifier>{e2890c82-80bd-4ea6-8ff8-a8230f2db768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RTN">
+      <UniqueIdentifier>{e3c0cb7e-e84a-4831-9b9b-7b4114b06b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Throttler">
+      <UniqueIdentifier>{c5987ce5-3c11-45f1-b662-1ba8822ca8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scheduler">
+      <UniqueIdentifier>{61543be5-fd06-452d-bb1c-c61faccf45b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Routing">
+      <UniqueIdentifier>{6cdf9428-728f-466f-9f48-3763b0be8888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HeartBeats">
+      <UniqueIdentifier>{cab285f6-ea20-4ed2-aef6-92015f982030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protocols">
+      <UniqueIdentifier>{d5fb5574-c2df-4474-8018-41e42ecfb54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\TCP">
+      <UniqueIdentifier>{ad1c141e-ccf3-431b-bad3-83c2faa23687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DNS">
+      <UniqueIdentifier>{f63846d6-6c2e-4a62-9d65-561e3acdf18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UDP">
+      <UniqueIdentifier>{f7022070-6659-4253-9eae-11b9a19e11be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UDP\Clients">
+      <UniqueIdentifier>{b3a6f79f-5462-4ec3-8eb9-38abc95a7466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UDP\Servers">
+      <UniqueIdentifier>{93fa93b1-3b3c-44e0-a408-0aef78a5b650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HTTP">
+      <UniqueIdentifier>{cf541393-b26b-453c-bbc9-66c2fe4980c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packets">
+      <UniqueIdentifier>{0b4dc681-25f2-4b18-91b0-cdba57f75edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packets\Containers">
+      <UniqueIdentifier>{3f9ce6a6-2ea5-41e5-8fe0-fea2b3bb2722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RTN">
+      <UniqueIdentifier>{65bb9237-4f1b-4592-bf9c-f8b27593bd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Throttler">
+      <UniqueIdentifier>{ff88dc83-86d9-4853-8730-9fddfb65d308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scheduler">
+      <UniqueIdentifier>{7c8290dc-9ab5-4342-a2a2-abbc45799b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Routing">
+      <UniqueIdentifier>{5db1c488-86d8-43eb-a6f4-c11b9f939f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HeartBeats">
+      <UniqueIdentifier>{d26a8e3c-a694-413a-86f9-6b25a9a25332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protocols">
+      <UniqueIdentifier>{762195b5-70a7-48c4-a559-0d74c80a96e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\FTP">
+      <UniqueIdentifier>{cde48412-277c-4ac0-a3bb-2e2f17332326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FTP">
+      <UniqueIdentifier>{25ac4ffd-abdb-4ff0-b722-777e8f1e3511}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\EndPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TCP.cpp">
+      <Filter>Source Files\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TCPClient.cpp">
+      <Filter>Source Files\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TCPServer.cpp">
+      <Filter>Source Files\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DNS.cpp">
+      <Filter>Source Files\DNS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ReliableUDP.cpp">
+      <Filter>Source Files\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\UDP.cpp">
+      <Filter>Source Files\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ReliableUDPServer.cpp">
+      <Filter>Source Files\UDP\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\UDPServer.cpp">
+      <Filter>Source Files\UDP\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ReliableUDPClient.cpp">
+      <Filter>Source Files\UDP\Clients</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\UDPClient.cpp">
+      <Filter>Source Files\UDP\Clients</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HTTP.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HTTPClient.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Packet.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ReliablePacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RTNPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PacketArchive.cpp">
+      <Filter>Source Files\Packets\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PacketBuffer.cpp">
+      <Filter>Source Files\Packets\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RTNSubscriber.cpp">
+      <Filter>Source Files\RTN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RTNTransceiver.cpp">
+      <Filter>Source Files\RTN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Throttler.cpp">
+      <Filter>Source Files\Throttler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scheduler.cpp">
+      <Filter>Source Files\Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Route.cpp">
+      <Filter>Source Files\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Router.cpp">
+      <Filter>Source Files\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HeartbeatRequestThread.cpp">
+      <Filter>Source Files\HeartBeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HeartbeatResponseThread.cpp">
+      <Filter>Source Files\HeartBeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ReliableProtocol.cpp">
+      <Filter>Source Files\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HTTPServer.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\FTP.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\FTPServer.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\EndPoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Socket.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TCP.hpp">
+      <Filter>Header Files\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TCPClient.hpp">
+      <Filter>Header Files\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TCPServer.hpp">
+      <Filter>Header Files\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DNS.hpp">
+      <Filter>Header Files\DNS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ReliableUDP.hpp">
+      <Filter>Header Files\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UDP.hpp">
+      <Filter>Header Files\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ReliableUDPClient.hpp">
+      <Filter>Header Files\UDP\Clients</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UDPClient.hpp">
+      <Filter>Header Files\UDP\Clients</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ReliableUDPServer.hpp">
+      <Filter>Header Files\UDP\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UDPServer.hpp">
+      <Filter>Header Files\UDP\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HTTP.hpp">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HTTPClient.hpp">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Packet.hpp">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ReliablePacket.hpp">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\RTNPacket.hpp">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PacketArchive.hpp">
+      <Filter>Header Files\Packets\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\RTNSubscriber.hpp">
+      <Filter>Header Files\RTN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\RTNTransceiver.hpp">
+      <Filter>Header Files\RTN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Throttler.hpp">
+      <Filter>Header Files\Throttler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Scheduler.hpp">
+      <Filter>Header Files\Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Route.hpp">
+      <Filter>Header Files\Routing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Router.hpp">
+      <Filter>Header Files\Routing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HeartbeatRequestThread.hpp">
+      <Filter>Header Files\HeartBeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HeartbeatResponseThread.hpp">
+      <Filter>Header Files\HeartBeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ReliableProtocol.hpp">
+      <Filter>Header Files\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PacketBuffer.hpp">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HTTPServer.hpp">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\FTP.hpp">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\FTPClient.hpp">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\FTPServer.hpp">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\FTPClient.hpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NetworkingMiller.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

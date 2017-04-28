@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "..\Client\VC10\Client.vcxproj", "{7FF1402C-7EA6-4C11-97BF-03462FB381B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library", "..\Library\VC10\Library.vcxproj", "{3A8F7A58-D46C-40C5-B392-43518FAD60C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "..\Server\VC10\Server.vcxproj", "{4BA15D39-F83C-4C65-BA71-86E07B7B914A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LPad", "..\LPad\VC10\LPad.vcxproj", "{A4921FB3-801B-47D2-B14B-F293110956DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FF1402C-7EA6-4C11-97BF-03462FB381B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FF1402C-7EA6-4C11-97BF-03462FB381B6}.Debug|Win32.Build.0 = Debug|Win32
+		{7FF1402C-7EA6-4C11-97BF-03462FB381B6}.Debug|x64.ActiveCfg = Debug|x64
+		{7FF1402C-7EA6-4C11-97BF-03462FB381B6}.Debug|x64.Build.0 = Debug|x64
+		{7FF1402C-7EA6-4C11-97BF-03462FB381B6}.Release|Win32.ActiveCfg = Release|Win32
+		{7FF1402C-7EA6-4C11-97BF-03462FB381B6}.Release|Win32.Build.0 = Release|Win32
+		{7FF1402C-7EA6-4C11-97BF-03462FB381B6}.Release|x64.ActiveCfg = Release|x64
+		{7FF1402C-7EA6-4C11-97BF-03462FB381B6}.Release|x64.Build.0 = Release|x64
+		{3A8F7A58-D46C-40C5-B392-43518FAD60C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A8F7A58-D46C-40C5-B392-43518FAD60C7}.Debug|Win32.Build.0 = Debug|Win32
+		{3A8F7A58-D46C-40C5-B392-43518FAD60C7}.Debug|x64.ActiveCfg = Debug|x64
+		{3A8F7A58-D46C-40C5-B392-43518FAD60C7}.Debug|x64.Build.0 = Debug|x64
+		{3A8F7A58-D46C-40C5-B392-43518FAD60C7}.Release|Win32.ActiveCfg = Release|Win32
+		{3A8F7A58-D46C-40C5-B392-43518FAD60C7}.Release|Win32.Build.0 = Release|Win32
+		{3A8F7A58-D46C-40C5-B392-43518FAD60C7}.Release|x64.ActiveCfg = Release|x64
+		{3A8F7A58-D46C-40C5-B392-43518FAD60C7}.Release|x64.Build.0 = Release|x64
+		{4BA15D39-F83C-4C65-BA71-86E07B7B914A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BA15D39-F83C-4C65-BA71-86E07B7B914A}.Debug|Win32.Build.0 = Debug|Win32
+		{4BA15D39-F83C-4C65-BA71-86E07B7B914A}.Debug|x64.ActiveCfg = Debug|x64
+		{4BA15D39-F83C-4C65-BA71-86E07B7B914A}.Debug|x64.Build.0 = Debug|x64
+		{4BA15D39-F83C-4C65-BA71-86E07B7B914A}.Release|Win32.ActiveCfg = Release|Win32
+		{4BA15D39-F83C-4C65-BA71-86E07B7B914A}.Release|Win32.Build.0 = Release|Win32
+		{4BA15D39-F83C-4C65-BA71-86E07B7B914A}.Release|x64.ActiveCfg = Release|x64
+		{4BA15D39-F83C-4C65-BA71-86E07B7B914A}.Release|x64.Build.0 = Release|x64
+		{A4921FB3-801B-47D2-B14B-F293110956DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4921FB3-801B-47D2-B14B-F293110956DC}.Debug|Win32.Build.0 = Debug|Win32
+		{A4921FB3-801B-47D2-B14B-F293110956DC}.Debug|x64.ActiveCfg = Debug|Win32
+		{A4921FB3-801B-47D2-B14B-F293110956DC}.Release|Win32.ActiveCfg = Release|Win32
+		{A4921FB3-801B-47D2-B14B-F293110956DC}.Release|Win32.Build.0 = Release|Win32
+		{A4921FB3-801B-47D2-B14B-F293110956DC}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		AMDCaProjectFile = D:\Habu\HabuNetwork\VC10\CodeAnalyst\HabuNetwork.caw
+	EndGlobalSection
+EndGlobal

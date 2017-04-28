@@ -1,0 +1,16 @@
+09-10-2008
+============
+- HabuSocket Debug now is built with static multi thread debug runtime instead of release runtime
+- Socket class now creates message buffer for both send and recv in constructor. This reduces API calls and hides core functionality
+- Socket class now creates aging and eviction threads for both send and recv buffers
+- Corrected crashes in MessageBuffer were calls to pop and get front from the STL priority_queue container would crash
+- Removed erroneous "ThreadParameters" struct in Socket.cpp
+- Changed both Send() and Recv() methods in socket to use Async system with two threads doing the sending and receiving work
+- Added mutex to Socket.hpp to protect data members from competing threads
+
+09-10-2008
+============
+- TODO add initialize method to socket to all the two overloaded constructors to use the same code.
+- TODO move "wrapper" method in Socket to recv and send threads
+- TODO Added async tests to Unit Tester
+- TODO get initial 3D "game" running in single player
